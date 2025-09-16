@@ -59,4 +59,4 @@ proxy: {
 - `POST /api/Templates/Create` — тіло запиту: `{ name: string, htmlContent: string }`
 - `PUT /api/Templates/Update/{id}` — тіло запиту: `{ name: string, htmlContent: string }`
 - `DELETE /api/Templates/Delete/{id}`
-- `POST /api/Templates/{id}/generate` — тіло запиту: `{ data: Record<string,string> }`, повертає PDF (`application/pdf`).
+- `POST /api/Templates/{id}/generate` — тіло запиту: `{ data: Dictionary<string,string> }`, повертає PDF (`application/pdf`).
