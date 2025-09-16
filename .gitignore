@@ -1,0 +1,109 @@
+# Root .gitignore for BootsikTest (.NET backend + Vite/React frontend)
+
+############################
+# OS / General
+############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs / temp
+logs/
+*.log
+*.svclog
+*.tmp
+~$*
+
+############################
+# Editors / IDEs
+############################
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+############################
+# Node / Frontend
+############################
+node_modules/
+# Vite build output
+frontend/dist/
+dist/
+.vite/
+# TypeScript incremental builds
+*.tsbuildinfo
+# Coverage
+coverage/
+*.lcov
+# Env files
+.env
+.env.local
+.env.*.local
+# Tooling caches
+.eslintcache
+.stylelintcache
+
+############################
+# .NET / Visual Studio build output
+############################
+[Bb]in/
+[Oo]bj/
+**/[Rr]elease/
+**/[Dd]ebug/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+TestResults/
+*.VisualState.xml
+*.psess
+*.vsp
+*.vspx
+*.pidb
+*.svclog
+*.scc
+
+# Compiled binaries/intermediates
+*.obj
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.cache
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+# NuGet restore artifacts (auto-generated)
+*.nuget.props
+*.nuget.targets
+
+############################
+# Database / tooling
+############################
+*.dbmdl
+
+############################
+# Keep configuration files
+############################
+# appsettings*.json are typically committed in ASP.NET Core projects
+# so we do NOT ignore them here.
+
+# EF Core Migrations are source code; do NOT ignore Migrations/
